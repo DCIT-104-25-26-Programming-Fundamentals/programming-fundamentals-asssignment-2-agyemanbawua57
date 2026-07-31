@@ -42,7 +42,6 @@
 #include <iostream>
 using namespace std;
 
-// Function to calculate the sum
 int findSum(int arr[], int size)
 {
     int sum = 0;
@@ -55,14 +54,14 @@ int findSum(int arr[], int size)
     return sum;
 }
 
-// Function to calculate the average
+
 double findAverage(int arr[], int size)
 {
     int sum = calculateSum(arr, size);
     return (double)sum / size;
 }
 
-// Function to find the maximum value
+
 int findMaximum(int arr[], int size)
 {
     int max = arr[0];
@@ -78,7 +77,6 @@ int findMaximum(int arr[], int size)
     return max;
 }
 
-// Function to find the minimum value
 int findMinimum(int arr[], int size)
 {
     int min = arr[0];
@@ -101,7 +99,6 @@ int main()
     cout << "How many values do want to enter? ";
     cin >> n;
 
-    // Validate input
     if (n <= 0)
     {
         cout << "Error: Number of values must be greater than 0." << endl;
@@ -110,14 +107,14 @@ int main()
 
     int numbers[n];
 
-    // Read the numbers
+
     for (int i = 0; i < n; i++)
     {
         cout << "Enter number " << i + 1 << ": ";
         cin >> numbers[i];
     }
 
-    // Display results
+  
     cout << "\nResults:" << endl;
     cout << "Sum:     " << findSum(numbers, n) << endl;
     cout << "Average: " << findAverage(numbers, n) << endl;
