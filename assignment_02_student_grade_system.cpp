@@ -45,16 +45,14 @@
 #include <iostream>
 using namespace std;
 
-// Function to determine the student's grade
+
 char getGrade(int score)
 {
-    // Validate the score
     if (score < 0 || score > 100)
     {
         return "Invalid";
     }
 
-    // Determine the grade
     if (score >= 80)
     {
         return 'A';
