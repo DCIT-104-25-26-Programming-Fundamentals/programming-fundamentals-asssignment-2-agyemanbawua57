@@ -1,7 +1,7 @@
 // =============================================================================
 // PROGRAMMING FUNDAMENTALS — Assignment 3
 // =============================================================================
-//
+
 // TASK: Array Statistics Calculator
 //
 // Write a C++ program that reads a collection of numbers from the user
