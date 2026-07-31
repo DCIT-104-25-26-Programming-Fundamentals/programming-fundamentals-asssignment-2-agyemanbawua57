@@ -63,9 +63,9 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+using namespace std;
 
 const int MAX = 10;
-
 
 void displayMatrix(int matrix[10][10], int rows, int cols)
 {
@@ -231,5 +231,5 @@ int main()
     return 0;
 }
 
-using namespace std;
+
 
